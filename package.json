@@ -1,0 +1,27 @@
+{
+  "name": "city-faker",
+  "version": "1.0.0",
+  "description": "A package for generating city in a country",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devpilot-official/city-faker.git"
+  },
+  "author": "Muhammed Salaudeen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devpilot-official/city-faker/issues"
+  },
+  "homepage": "https://github.com/devpilot-official/city-faker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}

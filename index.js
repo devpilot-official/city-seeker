@@ -4,6 +4,8 @@ const region = require("./lib/region")
 const country = require("./lib/country")
 
 
+module.exports = {all, region, country}
+
 // const app = express()
 
 // const port = process.env.PORT || 3100
@@ -17,7 +19,7 @@ const country = require("./lib/country")
 
 // app.get("/:country", (req, res) => {
 //     res.send({
-//         city: country(req.params.country)
+//         data: country(req.params.country)
 //     })
 // })
 
@@ -26,8 +28,6 @@ const country = require("./lib/country")
 //         city: region(req.params.country, req.params.region)
 //     })
 // })
-
-module.exports = {all, region, country}
 
 // app.listen(port, () => {
 //     console.log("Server started on port:", port)

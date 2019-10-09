@@ -1,6 +1,6 @@
 {
   "name": "city-faker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A package for generating city in a country",
   "main": "index.js",
   "scripts": {
@@ -18,9 +18,7 @@
     "url": "https://github.com/devpilot-official/city-faker/issues"
   },
   "homepage": "https://github.com/devpilot-official/city-faker#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  },
+  "dependencies": {},
   "devDependencies": {
     "nodemon": "^1.19.3"
   }

@@ -1,26 +1,26 @@
-# city-faker
+# city-selector
 This package is used to generate a random city of a particular country
 
 ## Usage
 
 ### Node.js
 
-    const city-faker = require('city-faker')
+    const city-selector = require('city-selector')
 
-    const cityName = city-faker.any().city.name; // This returns a random city from anywhere in the world - Lagos
-    const cityFromACountry = city-faker.country("Nigeria").city.name; // This returns a random city from the country specified - Lagos
+    const cityName = city-selector.any().city.name; // This returns a random city from anywhere in the world - Lagos
+    const cityFromACountry = city-selector.country("Nigeria").city.name; // This returns a random city from the country specified - Lagos
     
 ### Extras
   
-    const cityRegion = city-faker.any().city.region // This returns the region of the city in its country - West
-    const countryName = city-faker.any().country; // This returns the name of the country the returned city is - Nigeria
-    const countryRegion = city-faker.any().region // This returns the country region of the city - Africa
-    const countryRegion = city-faker.any().subregion // This returns the country region of the city - Western Africa
+    const cityRegion = city-selector.any().city.region // This returns the region of the city in its country - West
+    const countryName = city-selector.any().country; // This returns the name of the country the returned city is - Nigeria
+    const countryRegion = city-selector.any().region // This returns the country region of the city - Africa
+    const countryRegion = city-selector.any().subregion // This returns the country region of the city - Western Africa
 
-    const cityRegion = city-faker.country('Nigeria').city.region // This returns the region of the city in its country - Western Region
-    const countryName = city-faker.country('Nigeria).country; // This returns the name of the country the returned city is - Nigeria
-    const countryRegion = city-faker.country('Nigeria').region // This returns the country region of the city - Africa
-    const countryRegion = city-faker.country('Nigeria').subregion // This returns the country region of the city - Western Africa
+    const cityRegion = city-selector.country('Nigeria').city.region // This returns the region of the city in its country - Western Region
+    const countryName = city-selector.country('Nigeria).country; // This returns the name of the country the returned city is - Nigeria
+    const countryRegion = city-selector.country('Nigeria').region // This returns the country region of the city - Africa
+    const countryRegion = city-selector.country('Nigeria').subregion // This returns the country region of the city - Western Africa
     
 ## Available Countries
 

@@ -1,6 +1,6 @@
 {
   "name": "city-faker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package for generating city in a country",
   "main": "index.js",
   "scripts": {

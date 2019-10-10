@@ -1,5 +1,5 @@
 {
-  "name": "city-selector",
+  "name": "city-seeker",
   "version": "1.0.0",
   "description": "A package for generating city in a country",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devpilot-official/city-faker.git"
+    "url": "git+https://github.com/devpilot-official/city-seeker.git"
   },
   "author": "Muhammed Salaudeen",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/devpilot-official/city-faker/issues"
+    "url": "https://github.com/devpilot-official/city-seeker/issues"
   },
-  "homepage": "https://github.com/devpilot-official/city-faker#readme",
+  "homepage": "https://github.com/devpilot-official/city-seeker#readme",
   "dependencies": {},
   "devDependencies": {
     "mocha": "^6.2.1",

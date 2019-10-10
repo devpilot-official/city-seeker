@@ -1,6 +1,6 @@
 {
   "name": "city-selector",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "A package for generating city in a country",
   "main": "index.js",
   "scripts": {

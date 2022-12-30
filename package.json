@@ -20,7 +20,7 @@
   "homepage": "https://github.com/devpilot-official/city-seeker#readme",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "^6.2.1",
+    "mocha": "^10.2.0",
     "nodemon": "^1.19.3"
   }
 }
